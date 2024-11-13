@@ -22,6 +22,7 @@ class GeometricTestCase(unittest.TestCase):
     def test_circle_area(self):
         self.assertEqual(CircleUtils.area(0), 0)
         self.assertEqual(CircleUtils.area(-13), -1)
+        self.assertAlmostEqual(CircleUtils.area(1), math.pi)
         self.assertAlmostEqual(CircleUtils.area(10 / math.pi), 31.8309886)
         self.assertAlmostEqual(CircleUtils.area(4 / math.pi**0.5), 16)
         
