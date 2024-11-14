@@ -12,3 +12,16 @@ Labwork 4, ISRPO, Mukhachev Denis M3102
 |test_triangle_area      | a, b, c       | OK          |
 |test_triangle_perimeter | a, b, c       | OK          |
 |test_triangle_valid     | a, b, c       | OK          |
+
+### История изменений:
+```4071c85``` update readme.md
+
+```9010140``` added test for circle area
+
+```a85574c``` updated geometric lib, tests
+
+```6dafd44``` writed unit tests for geometric lib
+
+```02ab496``` Update README.md
+
+```f67bb58``` Initial commit
