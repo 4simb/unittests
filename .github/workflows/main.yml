@@ -40,4 +40,4 @@ jobs:
           
       - name: Run Unit Tests
         run: |
-          python -m unittest tests_geometric_lib.py
+          python -m unittest test_geometric_lib.py
