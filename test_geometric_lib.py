@@ -53,3 +53,4 @@ class GeometricTestCase(unittest.TestCase):
         self.assertFalse(TriangleUtils.valid(1, 1, 3))
         self.assertFalse(TriangleUtils.valid(43, 27, 71))
         self.assertFalse(TriangleUtils.valid(-12, 42, 1))
+        
